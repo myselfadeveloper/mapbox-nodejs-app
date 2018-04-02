@@ -1,0 +1,29 @@
+{
+  "name": "mapbox-nodejs-app",
+  "version": "1.0.0",
+  "description": "A sample app using Mapbox & nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "MSD",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mapbox-gl": "^0.44.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
